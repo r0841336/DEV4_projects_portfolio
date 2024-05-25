@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Classification</title>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tell me what it issss 😱</h1>
+    <p>If you don't know what that object in your hand is, show it to the camera, maybe he can help you</p>
+    <div class="video-container">
+      <video id="video" width="600" height="600" autoplay></video>
+      <button id="capture-btn">check it</button>
+    </div>
+    <div class="classification-result">
+      <h2 id="result">it issssss a...</h2>
+    </div>
+    <div class="loader"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
